@@ -3,7 +3,7 @@
 })();
 
 
-const numberOfEvenNumbers = 8;
+var numberOfEvenNumbers = 8;
 const numberOfButtons = 24;
 const buttonsPerRow = 6;
 const patterns = ['REPEATING', 'CHANGING']
