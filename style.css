@@ -1,0 +1,254 @@
+:root {
+	--FOUR-BUTTON-WIDTH: 600px; /* 600 : 4 dugmica = 150px */
+	--SIX-BUTTON-WIDTH: 900px; /*  900 : 6 dugmica = 150px */
+
+	--BUTTON-FONT-SIZE: 14px;
+	--BUTTON-FONT-COLOR: #000;
+
+	--BUTTON-SPACE-BETWEEN: 0.5px; /* Spacing between each button from all sides*/
+
+}
+
+/* annalog */
+.ANALOG-C11 {
+	background-color: #AF9BF0;
+}
+.ANALOG-C12 {
+	background-color: #99B3EF;
+}
+.ANALOG-C13 {
+	background-color: #8DECEC;
+}
+
+
+.ANALOG-C21 {
+	background-color: #CF94EF;
+}
+.ANALOG-C22 {
+	background-color: #F693CB;
+}
+.ANALOG-C23 {
+	background-color: #FF9999;
+}
+
+
+.ANALOG-C31 {
+	background-color: #FFC799;
+}
+.ANALOG-C32 {
+	background-color: #FFDD99;
+}
+.ANALOG-C33 {
+	background-color: #FFED99;
+}
+
+
+.ANALOG-C41 {
+	background-color: #93F593;
+}
+.ANALOG-C42 {
+	background-color: #DAFC97;
+}
+.ANALOG-C43 {
+	background-color: #FFFF99;
+}
+
+/* complementarty  */
+
+.COMP-C11 {
+	background-color: #99B3EF;
+}
+.COMP-C12 {
+	background-color: #FFC799;
+}
+.COMP-C13 {
+	background-color: #FFED99;
+}
+
+.COMP-C21 {
+	background-color: #F693CB;
+}
+.COMP-C22 {
+	background-color: #93F593;
+}
+.COMP-C23 {
+	background-color: #FFFF99;
+}
+
+.COMP-C31 {
+	background-color: #FFDD99;
+}
+.COMP-C32 {
+	background-color: #8DECEC;
+}
+.COMP-C33 {
+	background-color: #AF9BF0;
+}
+
+.COMP-C41 {
+	background-color: #DAFC97;
+}
+.COMP-C42 {
+	background-color: #CF94EF;
+}
+.COMP-C43 {
+	background-color: #FF9999;
+}
+
+/* Triadic */
+
+.TRIADIC-C11 {
+	background-color: #99B3EF;
+}
+.TRIADIC-C12 {
+	background-color: #FF9999;
+}
+.TRIADIC-C13 {
+	background-color: #FFFF99;
+}
+
+.TRIADIC-C21 {
+	background-color: #F693CB;
+}
+.TRIADIC-C22 {
+	background-color: #FFED99;
+}
+.TRIADIC-C23 {
+	background-color: #8DECEC;
+}
+
+.TRIADIC-C31 {
+	background-color: #FFDD99;
+}
+.TRIADIC-C32 {
+	background-color: #93F593;
+}
+.TRIADIC-C33 {
+	background-color: #CF94EF;
+}
+
+.TRIADIC-C41 {
+	background-color: #DAFC97;
+}
+.TRIADIC-C42 {
+	background-color: #AF9BF0;
+}
+.TRIADIC-C43 {
+	background-color: #FFC799;
+}
+/* CONTROL */
+
+.CONTROL-C11 {
+	background-color: #99B3EF;
+}
+
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Tahoma, sans-serif;var(--BUTTON-SPACE-BETWEEN);
+	font-weight: bold;
+}
+
+.container {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links {
+	display: inline-block;
+	width: 150px;
+	height: 75px;
+	margin: 25px;
+	background-color: rgb(133, 133, 133);
+	color: #fff;
+	text-align: center;
+	line-height: 75px;
+	text-decoration: none;
+}
+
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	max-width: var(--SIX-BUTTON-WIDTH);
+}
+
+/* .step .grid {
+	max-width: var(--SIX-BUTTON-WIDTH);
+} */
+
+/* TODO fix the CSS, sigh...........booooooooooooorrring */
+
+.grid-button {
+	margin: 0;
+	border: var(--BUTTON-SPACE-BETWEEN);
+	outline: none;
+	cursor: pointer;
+	width: 100%;
+	height: 100px;
+	width: 150px;
+}
+
+.grid-button:disabled {
+	background-color:lightgray !important;
+}
+
+.grid-col-4 {
+	flex-basis: 25%;
+	max-width: 25%;
+}
+
+.grid-col-6 {
+	flex-basis: calc(100% / 6);
+	max-width: calc(100% / 6);
+}
+
+.grid-image {
+	display: block;
+	max-width: 100%;
+}
+
+.grid-image- umber {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 3;
+	font-size: var(--BUTTON-FONT-SIZE);
+	color: var(--BUTTON-FONT-COLOR);
+	transform: translate(-50%, -50%);
+}
+
+
+.thank-you-step {
+	display: none;
+	font-size: 36px;
+	text-transform: capitalize;
+}
+
+.pause-step {
+	display: none;
+}
+
+
+.buttons-step {
+	display: none;
+}
+
+.bottom-margin {
+	margin-bottom: 20px;
+}
+
+.explanation {
+	margin-left: 20px;
+}
