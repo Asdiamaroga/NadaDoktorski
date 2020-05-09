@@ -14,123 +14,123 @@ const predefinedButtonGrids = [
 		colors: ['ANALOG-C11', 'ANALOG-C12', 'ANALOG-C13'],
 		pattern: patterns[0]
 	},
-	{
-		name: 'A2.1',
-		colors: ['ANALOG-C11', 'ANALOG-C12', 'ANALOG-C13'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'A1.2',
-		colors: ['ANALOG-C21', 'ANALOG-C22', 'ANALOG-C23'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'A2.2',
-		colors: ['ANALOG-C21', 'ANALOG-C22', 'ANALOG-C23'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'A1.3',
-		colors: ['ANALOG-C31', 'ANALOG-C32', 'ANALOG-C33'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'A2.3',
-		colors: ['ANALOG-C31', 'ANALOG-C32', 'ANALOG-C33'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'A1.4',
-		colors: ['ANALOG-C41', 'ANALOG-C42', 'ANALOG-C43'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'A2.4',
-		colors: ['ANALOG-C41', 'ANALOG-C42', 'ANALOG-C43'],
-		pattern: patterns[1]
-	},
-	// complementary -------------------------------------
-	{
-		name: 'S1.1',
-		colors: ['COMP-C11', 'COMP-C12', 'COMP-C13'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'S2.1',
-		colors: ['COMP-C11', 'COMP-C12', 'COMP-C13'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'S1.2',
-		colors: ['COMP-C21', 'COMP-C22', 'COMP-C23'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'S2.2',
-		colors: ['COMP-C21', 'COMP-C22', 'COMP-C23'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'S1.3',
-		colors: ['COMP-C31', 'COMP-C32', 'COMP-C33'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'S2.3',
-		colors: ['COMP-C31', 'COMP-C32', 'COMP-C33'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'S1.4',
-		colors: ['COMP-C41', 'COMP-C42', 'COMP-C43'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'S2.4',
-		colors: ['COMP-C41', 'COMP-C42', 'COMP-C43'],
-		pattern: patterns[1]
-	},
-	// TRIADIC
-	{
-		name: 'T1.1',
-		colors: ['TRIADIC-C11', 'TRIADIC-C12', 'TRIADIC-C13'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'T2.1',
-		colors: ['TRIADIC-C11', 'TRIADIC-C12', 'TRIADIC-C13'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'T1.2',
-		colors: ['TRIADIC-C21', 'TRIADIC-C22', 'TRIADIC-C23'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'T2.2',
-		colors: ['TRIADIC-C21', 'TRIADIC-C22', 'TRIADIC-C23'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'T1.3',
-		colors: ['TRIADIC-C31', 'TRIADIC-C32', 'TRIADIC-C33'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'T2.3',
-		colors: ['TRIADIC-C31', 'TRIADIC-C32', 'TRIADIC-C33'],
-		pattern: patterns[1]
-	},
-	{
-		name: 'T1.4',
-		colors: ['TRIADIC-C41', 'TRIADIC-C42', 'TRIADIC-C43'],
-		pattern: patterns[0]
-	},
-	{
-		name: 'T2.4',
-		colors: ['TRIADIC-C41', 'TRIADIC-C42', 'TRIADIC-C43'],
-		pattern: patterns[1]
-	},
+	// {
+	// 	name: 'A2.1',
+	// 	colors: ['ANALOG-C11', 'ANALOG-C12', 'ANALOG-C13'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'A1.2',
+	// 	colors: ['ANALOG-C21', 'ANALOG-C22', 'ANALOG-C23'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'A2.2',
+	// 	colors: ['ANALOG-C21', 'ANALOG-C22', 'ANALOG-C23'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'A1.3',
+	// 	colors: ['ANALOG-C31', 'ANALOG-C32', 'ANALOG-C33'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'A2.3',
+	// 	colors: ['ANALOG-C31', 'ANALOG-C32', 'ANALOG-C33'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'A1.4',
+	// 	colors: ['ANALOG-C41', 'ANALOG-C42', 'ANALOG-C43'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'A2.4',
+	// 	colors: ['ANALOG-C41', 'ANALOG-C42', 'ANALOG-C43'],
+	// 	pattern: patterns[1]
+	// },
+	// // complementary -------------------------------------
+	// {
+	// 	name: 'S1.1',
+	// 	colors: ['COMP-C11', 'COMP-C12', 'COMP-C13'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'S2.1',
+	// 	colors: ['COMP-C11', 'COMP-C12', 'COMP-C13'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'S1.2',
+	// 	colors: ['COMP-C21', 'COMP-C22', 'COMP-C23'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'S2.2',
+	// 	colors: ['COMP-C21', 'COMP-C22', 'COMP-C23'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'S1.3',
+	// 	colors: ['COMP-C31', 'COMP-C32', 'COMP-C33'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'S2.3',
+	// 	colors: ['COMP-C31', 'COMP-C32', 'COMP-C33'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'S1.4',
+	// 	colors: ['COMP-C41', 'COMP-C42', 'COMP-C43'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'S2.4',
+	// 	colors: ['COMP-C41', 'COMP-C42', 'COMP-C43'],
+	// 	pattern: patterns[1]
+	// },
+	// // TRIADIC
+	// {
+	// 	name: 'T1.1',
+	// 	colors: ['TRIADIC-C11', 'TRIADIC-C12', 'TRIADIC-C13'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'T2.1',
+	// 	colors: ['TRIADIC-C11', 'TRIADIC-C12', 'TRIADIC-C13'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'T1.2',
+	// 	colors: ['TRIADIC-C21', 'TRIADIC-C22', 'TRIADIC-C23'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'T2.2',
+	// 	colors: ['TRIADIC-C21', 'TRIADIC-C22', 'TRIADIC-C23'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'T1.3',
+	// 	colors: ['TRIADIC-C31', 'TRIADIC-C32', 'TRIADIC-C33'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'T2.3',
+	// 	colors: ['TRIADIC-C31', 'TRIADIC-C32', 'TRIADIC-C33'],
+	// 	pattern: patterns[1]
+	// },
+	// {
+	// 	name: 'T1.4',
+	// 	colors: ['TRIADIC-C41', 'TRIADIC-C42', 'TRIADIC-C43'],
+	// 	pattern: patterns[0]
+	// },
+	// {
+	// 	name: 'T2.4',
+	// 	colors: ['TRIADIC-C41', 'TRIADIC-C42', 'TRIADIC-C43'],
+	// 	pattern: patterns[1]
+	// },
 	// CONTROL
 	{
 		name: 'K',
@@ -312,7 +312,20 @@ function createButton(content) {
 				calculateTimeSpentOnPageAndFixMistakesNumber(currentGrid);
 
 				document.querySelector('.thank-you-step').style.display = 'block';
-				console.log('result?????????', buttonGrids)
+				console.log('result?????????', buttonGrids);
+
+				let payload = {
+					experiment: withPause ? 'EXPERIMENT2' : 'EXPERIMENT1',
+					statisticsPerPage: buttonGrids 
+				}
+
+				fetch('https://nada-statistics.herokuapp.com/sendStatistics', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(payload)
+				})
 			}
 
 		} else {
