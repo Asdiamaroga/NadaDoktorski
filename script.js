@@ -176,10 +176,10 @@ function goToNextGrid() {
 	currentGrid.startTimeOnGrid = new Date();
 
 	if(withPause) {
-		changeVisibilityOfPauseStep('block');
+		changeVisibilityOfPauseStep('grid');
 		createThePauseButtonGrid(currentGrid.pattern, currentGrid.colors);
 	} else {
-		changeVisibilityOfButtonGridStep('block');
+		changeVisibilityOfButtonGridStep('grid');
 		createButtonGrid(currentGrid.pattern, currentGrid.colors);
 	}
 }
@@ -236,7 +236,7 @@ function createButtonGrid(pattern, colors, numberToAdd) {
 	
 	if(withPause) {
 		changeVisibilityOfPauseStep('none');
-		changeVisibilityOfButtonGridStep('block');
+		changeVisibilityOfButtonGridStep('grid');
 	}
 }
 
