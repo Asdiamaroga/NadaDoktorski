@@ -354,7 +354,7 @@ function calcTimeDifference(start) {
 	// strip the ms
 	timeDiff /= 1000;
 	// round to two decimalschangeVisibilityOfButtonGridStep('none');
-	var seconds = timeDiff.toFixed(2);
+	var seconds = timeDiff.toFixed(4);
 	return seconds; 
 };
 
