@@ -342,8 +342,8 @@ function createButton(content) {
 					statisticsPerPage: buttonGrids 
 				}
 
-				// fetch('https://nada-statistics.herokuapp.com/sendStatistics', {
-				fetch('http://localhost:5000/sendStatistics', {
+				// fetch('http://localhost:5000/sendStatistics', {
+				fetch('https://nada-statistics.herokuapp.com/sendStatistics', {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json'
