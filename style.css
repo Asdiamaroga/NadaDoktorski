@@ -184,6 +184,20 @@ body {
 	text-decoration: none;
 }
 
+.intermidiate-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	max-width: var(--SIX-BUTTON-WIDTH);
+}
+
+.pause-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	max-width: var(--SIX-BUTTON-WIDTH);
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -196,6 +210,16 @@ body {
 } */
 
 /* TODO fix the CSS, sigh...........booooooooooooorrring */
+
+.choose-test-button {
+	width: 150px !important;
+	margin-left: auto !important;
+}
+
+.pause-button {
+	width: 150px !important;
+	margin: auto !important;
+}
 
 .grid-button {
 	border-right: 1px solid white;
@@ -258,3 +282,6 @@ body {
 	margin-left: 20px;
 }
 
+.flex-box {
+	display: flex;
+}

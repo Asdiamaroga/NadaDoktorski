@@ -212,6 +212,7 @@ function createThePauseButtonGrid(num, style) {
 	
 	let btn = createButton(num);
 	btn.classList = style;
+	btn.classList.add('pause-button');
 
 	currentGrid.numberToFind = num;
 
