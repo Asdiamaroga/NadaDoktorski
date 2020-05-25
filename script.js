@@ -216,11 +216,12 @@ function createThePauseButtonGrid(num, style) {
 
 	currentGrid.numberToFind = num;
 
-	btn.onclick = function(event) {
-		// createButtonGrid(pattern, colors, num);
+	btn.onclick = function(event) {}
+
+	setTimeout(() => {
 		changeVisibilityOfPauseStep('none');
 		changeVisibilityOfButtonGridStep('grid');
-	}
+	}, 2000)
 
 	//TODO ask Nadacolors
 	// setPatternAndColors([btn], pattern, colors, 1);
