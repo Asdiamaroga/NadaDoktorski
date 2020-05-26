@@ -2,11 +2,17 @@
 	--FOUR-BUTTON-WIDTH: 600px; /* 600 : 4 dugmica = 150px */
 	--SIX-BUTTON-WIDTH: 900px; /*  900 : 6 dugmica = 150px */
 
-	--BUTTON-FONT-SIZE: 14px;
+	--BUTTON-FONT-SIZE: 16px;
 	--BUTTON-FONT-COLOR: #000;
 
 	--BUTTON-SPACE-BETWEEN: 0.5px; /* Spacing between each button from all sides*/
 
+}
+
+
+@font-face {
+	font-family: customFontYesIWasCreativeWithTheNaming;
+	src: url(font/MyriadPro-Semibold.otf);
 }
 
 /* annalog */
@@ -148,8 +154,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial, Tahoma, sans-serif;
-	font-weight: bold;
+	font-family: customFontYesIWasCreativeWithTheNaming !important;
 }
 
 body {
@@ -214,11 +219,13 @@ body {
 .choose-test-button {
 	width: 150px !important;
 	margin-left: auto !important;
+	font-size: var(--BUTTON-FONT-SIZE);
 }
 
 .pause-button {
 	width: 150px !important;
 	margin: auto !important;
+	font-size: var(--BUTTON-FONT-SIZE);
 }
 
 .grid-button {
@@ -226,7 +233,9 @@ body {
     border-left: 0px;
     height: 64px;
     border-top: 1px solid white;
-    border-bottom: 0px;
+	border-bottom: 0px;
+	font-size: var(--BUTTON-FONT-SIZE);
+	font-weight: bold;
 }
 
 .grid-button:disabled {
