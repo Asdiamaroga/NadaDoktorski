@@ -154,7 +154,6 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: customFontYesIWasCreativeWithTheNaming !important;
 }
 
 body {
@@ -236,6 +235,7 @@ body {
 	border-bottom: 0px;
 	font-size: var(--BUTTON-FONT-SIZE);
 	font-weight: bold;
+	font-family: customFontYesIWasCreativeWithTheNaming !important;
 }
 
 .grid-button:disabled {
