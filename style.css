@@ -145,7 +145,19 @@
 /* CONTROL */
 
 .CONTROL-C11 {
-	background-color: #99B3EF;
+	background-color: #8DECEC;
+}
+
+.CONTROL-C21 {
+	background-color: #FFFF99;
+}
+
+.CONTROL-C31 {
+	background-color: #FFC799;
+}
+
+.CONTROL-C41 {
+	background-color: #AF9BF0;
 }
 
 *,

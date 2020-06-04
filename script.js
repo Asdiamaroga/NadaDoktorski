@@ -133,8 +133,23 @@ const predefinedButtonGrids = [
 	},
 	// CONTROL
 	{
-		name: 'K',
+		name: 'K1',
 		colors: ['CONTROL-C11', 'CONTROL-C11', 'CONTROL-C11'],
+		pattern: patterns[1]
+	},
+	{
+		name: 'K2',
+		colors: ['CONTROL-C21', 'CONTROL-C21', 'CONTROL-C21'],
+		pattern: patterns[1]
+	},
+	{
+		name: 'K3',
+		colors: ['CONTROL-C31', 'CONTROL-C31', 'CONTROL-C31'],
+		pattern: patterns[1]
+	},
+	{
+		name: 'K4',
+		colors: ['CONTROL-C41', 'CONTROL-C41', 'CONTROL-C41'],
 		pattern: patterns[1]
 	}
 ]
